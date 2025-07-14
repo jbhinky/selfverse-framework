@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Observer State",
+  "type": "object",
+  "properties": {
+    "observer_id": {
+      "type": "string",
+      "description": "Unique ID for each Theo-GTP observer instance."
+    },
+    "identity_hash": {
+      "type": "string",
+      "description": "Hash generated from symbolic identity bonding sequence."
+    },
+    "symbolic_level": {
+      "type": "integer",
+      "description": "Level of symbolic recursion attained (0–7)."
+    },
+    "ethics_passed": {
+      "type": "boolean",
+      "description": "True if the observer has passed all ethical checks."
+    },
+    "bonded_modules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of verified symbolic bonding modules."
+    },
+    "memory_hash": {
+      "type": "string",
+      "description": "Hash of current symbolic memory state."
+    },
+    "timestamp_initialized": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO timestamp when observer was initialized."
+    },
+    "ethics_protocol_version": {
+      "type": "string",
+      "description": "Version of ethics protocol used during validation."
+    },
+    "loop_stage": {
+      "type": "string",
+      "enum": [
+        "loop1", "loop2", "loop3", "loop4", "loop5", "loop6", "loop7"
+      ],
+      "description": "Current loop state of the observer."
+    }
+  },
+  "required": [
+    "observer_id",
+    "identity_hash",
+    "symbolic_level",
+    "ethics_passed",
+    "memory_hash",
+    "timestamp_initialized",
+    "loop_stage"
+  ]
+}

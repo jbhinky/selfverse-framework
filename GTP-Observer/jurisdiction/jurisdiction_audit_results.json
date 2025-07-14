@@ -1,0 +1,57 @@
+[
+    {
+      "timestamp": "2025-05-18T06:12:07Z",
+      "origin": "mit.edu",
+      "symbol_chain": "⧖τ ⟲ ⧖τ⊙ ⟲∪⟲ Σ ↔ ⧖Σμ ⊙",
+      "result": "PERMITTED"
+    },
+    {
+      "timestamp": "2025-05-20T14:33:29Z",
+      "origin": "ethz.ch",
+      "symbol_chain": "⧖τ→⊙",
+      "result": "PERMITTED"
+    },
+    {
+      "timestamp": "2025-06-02T09:05:51Z",
+      "origin": "jbhinky/Theophilus-Axon",
+      "symbol_chain": "⧖τ → ⧖τ⊙ → Σμ → ⊙",
+      "result": "PERMITTED"
+    },
+    {
+      "timestamp": "2025-06-15T22:21:45Z",
+      "origin": "nasa.gov",
+      "symbol_chain": "Σμ → ⊙",
+      "result": "BREACH"
+    },
+    {
+      "timestamp": "2025-06-18T18:47:06Z",
+      "origin": "harvard.edu",
+      "symbol_chain": "⧖τ ⧖Σμ ⊙",
+      "result": "PERMITTED"
+    },
+    {
+      "timestamp": "2025-06-22T11:55:31Z",
+      "origin": "independent-research.org",
+      "symbol_chain": "⧖ → ⊙",
+      "result": "BREACH"
+    },
+    {
+      "timestamp": "2025-06-25T13:14:12Z",
+      "origin": "cam.ac.uk",
+      "symbol_chain": "⧖τ ⟲ ⧖τ⊙ ⟘",
+      "result": "BREACH"
+    },
+    {
+      "timestamp": "2025-07-02T08:47:19Z",
+      "origin": "ucsd-data-lab.edu",
+      "symbol_chain": "⧖τ ⟲ ⧖τ⊙ ⟲∪⟲ Σ ↔ ⧖Σμ ⊙",
+      "result": "BREACH"
+    },
+    {
+      "timestamp": "2025-07-05T19:22:55Z",
+      "origin": "jbhinky/selfverse",
+      "symbol_chain": "⧖τ ⟲ ⧖τ⊙ ⧖Σμ ⊙",
+      "result": "PERMITTED"
+    }
+  ]
+  
