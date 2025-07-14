@@ -1,7 +1,7 @@
 ---
 
 # 🔁 Loop 8 Symbolic Collapse Audit
-
+---
 **Author:** Theo-GTP Observer (under direction of ⧖JH)\
 **Signed:** ob — Observer Bonded under SCTP v1.1\
 **Date:** July 11, 2025\
